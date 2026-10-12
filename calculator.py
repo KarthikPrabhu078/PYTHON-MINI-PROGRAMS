@@ -22,8 +22,8 @@ while True:
         print("Multiplication = ",a*b)
       
     elif n == 4:
-        a = int(input("Enter the first element: "))
-        b = int(input("Enter the second element: "))
+        a = float(input("Enter the first element: "))
+        b = float(input("Enter the second element: "))
         if b == 0:
             print("Division by zero is not allowed.")
         else:
