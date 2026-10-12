@@ -11,21 +11,27 @@ while(1):
         b = int(input("Enter the second element: "))
         print("Addition = ",a+b)
         
-    if n == 2:
+    elif n == 2:
         a = int(input("Enter the first element: "))
         b = int(input("Enter the second element: "))
         print("Subtraction = ",a-b)
         
-    if n == 3:
+    elif n == 3:
         a = int(input("Enter the first element: "))
         b = int(input("Enter the second element: "))
         print("Multiplication = ",a*b)
       
-    if n == 4:
+    elif n == 4:
         a = int(input("Enter the first element: "))
         b = int(input("Enter the second element: "))
-        print("Division = ",a/b)
+        if b == 0:
+            print("Division by zero is not allowed.")
+        else:
+            print("Division = ",a/b)
 
-    if n == 5:
+    elif n == 5:
         exit(0) 
+    else: 
+        print("Invalid choice")
+        exit(0)
 
