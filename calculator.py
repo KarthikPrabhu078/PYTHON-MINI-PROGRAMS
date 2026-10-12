@@ -1,4 +1,4 @@
-while(1):
+while True:
     
     print("\n1. Addition")
     print("2. Subtraction")
