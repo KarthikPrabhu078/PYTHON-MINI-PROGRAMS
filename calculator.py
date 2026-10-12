@@ -30,7 +30,8 @@ while True:
             print("Division = ",a/b)
 
     elif n == 5:
-        exit(0) 
+        print("Exiting the calculator. Goodbye!")
+        break
     else: 
         print("Invalid choice")
        
