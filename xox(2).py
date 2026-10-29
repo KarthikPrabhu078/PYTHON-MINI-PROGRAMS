@@ -30,7 +30,6 @@ root.title("Tic-Tac-Toe")
 current_player = "X" 
 winner = False
 
-# Fixed: tk.Button (Capital B) and i=i in the lambda
 buttons = [tk.Button(root, text="", font=("normal", 25), width=6, height=2, 
                      command=lambda i=i: button_click(i)) for i in range(9)]
 
