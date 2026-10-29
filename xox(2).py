@@ -10,7 +10,7 @@ def check_winner():
             buttons[combo[2]].config(bg="green")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", f"Player {buttons[combo[0]]['text']} wins!")
-            root.destroy() # Use destroy instead of quit for a cleaner exit
+            root.destroy() 
 
 def button_click(index):
     if buttons[index]["text"] == "" and not winner:
